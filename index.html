@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMF - Experiment Complete</title>
+    <meta name="description" content="IMF voting experiment has concluded. Await official announcement.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vote.imf.bz/">
+    <meta property="og:title" content="IMF - Experiment Complete">
+    <meta property="og:description" content="IMF voting experiment has concluded. Await official announcement.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://vote.imf.bz/">
+    <meta property="twitter:title" content="IMF - Experiment Complete">
+    <meta property="twitter:description" content="IMF voting experiment has concluded. Await official announcement.">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0a0a 50%, #0a0a0a 100%);
+            color: #ff4444;
+            font-family: 'Share Tech Mono', 'Courier New', monospace;
+            font-size: 16px;
+            line-height: 1.4;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            text-shadow: 0 0 2px #ff4444;
+        }
+        
+        .terminal {
+            width: 100%;
+            max-width: 700px;
+            padding: 40px;
+            text-align: left;
+            background: rgba(20, 20, 20, 0.9);
+            border: 2px solid #ff4444;
+            border-radius: 10px;
+            box-shadow: 0 0 8px #ff4444;
+            position: relative;
+        }
+        
+        .prompt {
+            color: #ff4444;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        
+        .output {
+            margin-bottom: 25px;
+            white-space: pre-line;
+            color: #ff6666;
+        }
+        
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 16px;
+            background: #ff4444;
+            animation: blink 1.2s infinite;
+            margin-left: 2px;
+        }
+        
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        
+        .link {
+            color: #ff4444;
+            text-decoration: none;
+            border-bottom: 1px solid #ff4444;
+            transition: all 0.3s ease;
+        }
+        
+        .link:hover {
+            background: #ff4444;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            opacity: 0.6;
+            font-size: 12px;
+            color: #cc3333;
+        }
+        
+        .imf-logo {
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            
+            .terminal {
+                padding: 25px;
+                margin: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                font-size: 12px;
+            }
+            
+            .terminal {
+                padding: 20px;
+                margin: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <div class="imf-logo">◉ IMF TERMINAL ◉</div>
+        
+        <div class="prompt">IMF-SYSTEM-01:~$ ./run_experiment.exe</div>
+        <div class="output">INITIALIZING LIQUIDITY LOGISTICS PROTOCOL...
+LOADING DELEGATION FRAMEWORK....... [OK]
+SCANNING TOKEN ALLOCATIONS.......... [OK]
+PROCESSING COMMUNITY CONSENSUS...... [OK]
+ANALYZING VOTING PATTERNS........... [OK]
+
+>>> EXPERIMENT COMPLETE <<<
+
+STATUS: SUCCESSFUL TERMINATION
+RUNTIME: 96 HOURS
+TOTAL PARTICIPANTS: 9,000,000+ VOTING POWER
+DATA COLLECTED: COMPREHENSIVE
+ANALYSIS: IN PROGRESS
+
+SYSTEM SHUTDOWN INITIATED...
+        </div>
+        
+        <div class="prompt">IMF-SYSTEM-01:~$ await_announcement</div>
+        <div class="output">MONITORING COMMUNICATIONS CHANNEL...
+FOLLOW: <a href="https://x.com/intlmemefund" class="link" target="_blank" rel="noopener noreferrer">@intlmemefund</a><span class="cursor"></span></div>
+        
+        <div class="footer">
+            IMF CREDIT CARTEL • EXPERIMENT CONCLUDED 29 JULY 2025
+        </div>
+    </div>
+
+    <script>
+        // Add some terminal-like interactivity
+        document.addEventListener('click', function() {
+            // Optional: Add click sound or other terminal effects
+        });
+        
+        // Prevent right-click context menu for cleaner experience
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
